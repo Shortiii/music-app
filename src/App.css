@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+@media (max-width: 769px) {
+  .app {
+    grid-template-columns: 1fr;
+  }
+}
