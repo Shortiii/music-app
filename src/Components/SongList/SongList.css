@@ -22,14 +22,16 @@
 
 .list {
   width: 350px;
-  height: 400px;
+  height: 80vh;
   list-style: none;
   display: flex;
   flex-direction: column;
+  /* justify-content: space-between; */
   gap: 15px;
   cursor: pointer;
   overflow: hidden;
   overflow-y: scroll;
+  /* margin-bottom: 10px; */
 }
 
 .list li {
@@ -76,7 +78,6 @@
   }
   .list {
     width: 330px;
-    height: 400px;
     gap: 10px;
   }
   .list li {
@@ -132,6 +133,9 @@
   }
   .song-list h2 {
     font-size: 28px;
+  }
+  .list {
+    height: 95%;
   }
   .list li {
     font-size: 18px;

@@ -23,6 +23,24 @@ import songEleven from "../assets/Lewis_Capaldi_-_Hold_Me_While_You_Wait_Interlu
 import coverEleven from "../assets/Hold me while you wait.jpeg";
 import songTwelve from "../assets/Olivia-Rodrigo-vampire.mp3";
 import coverTwelve from "../assets/Vampire.png";
+import songThirteen from "../assets/Lukas_Graham_-_7_Years.mp3";
+import coverThirteen from "../assets/7 years-cover.jpeg";
+import songFourteen from "../assets/Rene_Rapp_-_In_The_Kitchen.mp3";
+import coverFourteen from "../assets/in the kitchen-cover.jpeg";
+import songFiveteen from "../assets/Dean_Lewis_-_How_Do_I_Say_Goodbye.mp3";
+import coverFiveteen from "../assets/say goodbye-cover.jpeg";
+import songsixteen from "../assets/Miley_Cyrus_-_Flowers.mp3";
+import coversixteen from "../assets/flowers-cover.jpg";
+import songseventeen from "../assets/Ed_Sheeran_-_I_Dont_Care.mp3";
+import coverseventeen from "../assets/i dont care-cover.jpg";
+import songeighteen from "../assets/Hozier-Too-Sweet.mp3";
+import covereighteen from "../assets/too sweet-cover.png";
+import songnineteen from "../assets/Alessia_Cara_-_Growing_Pains.mp3";
+import covernineteen from "../assets/growing pains.jpeg";
+import songtwenty from "../assets/Olivia-Rodrigo-get-him-back.mp3";
+import covertwenty from "../assets/get him back-cover.jpeg";
+import songtwentyone from "../assets/Sabrina-Carpenter-Please-Please-Please.mp3";
+import covertwentyone from "../assets/please_cover.jpg";
 
 export const songs = [
   {
@@ -108,5 +126,68 @@ export const songs = [
     artist: "Olivia Rodrigo",
     cover: coverTwelve,
     url: songTwelve,
+  },
+  {
+    id: 13,
+    title: "7 Years",
+    artist: "Lukas Graham",
+    cover: coverThirteen,
+    url: songThirteen,
+  },
+  {
+    id: 14,
+    title: "In The Kitchen",
+    artist: "Renee Rapp",
+    cover: coverFourteen,
+    url: songFourteen,
+  },
+  {
+    id: 15,
+    title: "How Do I Say Goodbye",
+    artist: "Dean Lewis",
+    cover: coverFiveteen,
+    url: songFiveteen,
+  },
+  {
+    id: 16,
+    title: "Flowers",
+    artist: "Miley Cyrus",
+    cover: coversixteen,
+    url: songsixteen,
+  },
+  {
+    id: 17,
+    title: "I Don't Care",
+    artist: "Ed Sheeran",
+    cover: coverseventeen,
+    url: songseventeen,
+  },
+  {
+    id: 18,
+    title: "Too Sweer",
+    artist: "Hozier",
+    cover: covereighteen,
+    url: songeighteen,
+  },
+  {
+    id: 19,
+    title: "Growing Pains",
+    artist: "Alessia Cara",
+    cover: covernineteen,
+    url: songnineteen,
+  },
+  {
+    id: 20,
+    title: "Get Him Back",
+    artist: "Olivia Rodrigo",
+    cover: covertwenty,
+    url: songtwenty,
+  },
+  {
+    id: 21,
+    title: "Please Please Please",
+    artist: "Saabrina Carpenter",
+    cover: covertwentyone,
+    url: songtwentyone,
   },
 ];

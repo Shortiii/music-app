@@ -123,14 +123,16 @@ const MusicPlayer = ({ songs, currentSongIndex, setCurrentSongIndex }) => {
       <h2>Now Playing</h2>
       <div className="playlist">
         {currentSong ? (
-          <div className="main-section">
-            <img
-              src={currentSong.cover}
-              alt={`${currentSong.title} cover`}
-              width="100"
-            />
-            <h1>{currentSong.title}</h1>
-            <p>{currentSong.artist}</p>
+          <div className="section">
+            <div className="main-section">
+              <img
+                src={currentSong.cover}
+                alt={`${currentSong.title} cover`}
+                width="100"
+              />
+              <h1>{currentSong.title}</h1>
+              <p>{currentSong.artist}</p>
+            </div>
           </div>
         ) : (
           <p>Select a song to play</p>

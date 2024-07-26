@@ -9,9 +9,11 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  min-height: 100vh;
 }
 @media (max-width: 769px) {
   .app {
     grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 4.5fr;
   }
 }
